@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Océan et Corps Humain</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Et si l'Océan était un corps humain ?</h1>
+    <p>Explorez les parallèles entre le corps humain et l'océan pour mieux comprendre la nécessité de préserver nos océans.</p>
+</header>
+
+<main>
+    <section class="interactive-model">
+        <h2>Le corps humain et l'océan</h2>
+        <div class="body-parts">
+            <div class="part heart" onclick="showInfo('heart')">
+                <img src="heart-icon.png" alt="Cœur">
+                <p>Cœur</p>
+            </div>
+            <div class="part lungs" onclick="showInfo('lungs')">
+                <img src="lungs-icon.png" alt="Poumons">
+                <p>Poumons</p>
+            </div>
+            <div class="part stomach" onclick="showInfo('stomach')">
+                <img src="stomach-icon.png" alt="Estomac">
+                <p>Estomac</p>
+            </div>
+            <div class="part brain" onclick="showInfo('brain')">
+                <img src="brain-icon.png" alt="Cerveau">
+                <p>Cerveau</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="info-box">
+        <h3>Informations</h3>
+        <p>Cliquer sur une partie du corps pour découvrir les parallèles avec l'océan.</p>
+    </section>
+
+    <section id="podcast">
+        <h2>Podcast</h2>
+        <audio controls>
+            <source src="podcast.mp3" type="audio/mp3">
+            Votre navigateur ne supporte pas l'élément audio.
+        </audio>
+        <p>Écoutez le podcast pour en savoir plus sur la relation entre l'océan et le corps humain.</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Race For Water | Nuit de l'Info</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
